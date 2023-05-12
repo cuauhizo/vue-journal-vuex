@@ -1,3 +1,6 @@
-// export const myGetter = async ( state ) => {
-// return StaticRange.algo
+/** 
+ * Para traer informacion del state
+ */
+// export const myGetter = ( state ) => {
+// return state
 // }

@@ -1,5 +1,5 @@
 <template>
-    <button class="btn btn-primary mx2">
+    <button @click="$emit('on:click')" class="btn btn-primary mx2">
         <i class="fa fa-2x"
             :class="icon"></i>
     </button>
@@ -17,12 +17,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    button{
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        width: 80px;
-        height: 80px;
-        border-radius: 100%;
-    }
+button{
+    border-radius: 100%;
+    bottom: 20px;
+    height: 80px;
+    position: fixed;
+    right: 20px;
+    width: 80px;
+}
 </style>

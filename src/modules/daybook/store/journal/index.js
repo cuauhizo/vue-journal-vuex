@@ -1,10 +1,14 @@
+/**
+ * Es lo que se importa en el store que se defina
+ */
+
 import state from './state'
 import * as actions from './actions'
 import * as getters from './getters'
 import * as mutations from './mutations'
 
 const journalModule = {
-    namespace: true,
+    namespaced: true,
     actions,
     getters,
     mutations,
