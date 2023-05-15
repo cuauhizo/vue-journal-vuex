@@ -1,0 +1,109 @@
+Vue3 
+
+se necesita node
+
+comandos para creau un nuevo proyecto:
+- cd <ruta donde se alojara>
+- vue create <nombre-de-la-aplicacion>
+  (seleccionar caracteristicas)
+	babel
+	router
+	vuex
+		lister(ya en produccion)
+	p1:no
+	p2:no
+
+	
+
+============================
+
+ya no usaer var mejor usar const
+let - puede cambiar su valor
+============================
+
+operador spread
+const persona2 = { ...persona }
+para esparcir para crear un nuevo objeto
+
+============================
+
+desestructuracion:
+
+constantes extraidas de un objeto
+
+============================
+axios
+
+nose puede usar un await fuera de una funcion async
+
+============================
+
+crear un nuevo proyecto por CLI
+
+vue create nombre-de-proyecto
+
+ - pregunta q version a intslar
+ 
+ 
+============================
+
+instalar axios
+
+npm add axios
+============================
+
+cuando vea:
+[[Handler]]:Object
+[[Target]]:Array(n)
+[[IsRevoked]]:false
+
+es una propiedad u objeto reactivo
+
+============================
+en vuex:
+Acciones pueden ser asincronas
+Commits DEBEN de ser sincronos
+
+
+ - State: similar a la data(), es reactivo
+ - Getters: similar a las propiedades computadas
+ - Mutations: Funciones que pueden modificar el State
+ - Actions: Funciones que PUEDEN ser asincronas que PUEDEN llamar mutations
+ - Modules: Agrupador de state, getters, mutations, actions y otros modulos. (MUUUUUUY UTIL)
+ 
+============================
+CRUD utilizando Vuex
+
+ - Acciones para realizar peticiones http
+ - Mutations para actualizar el State
+ - Getters para obtener información del state
+ - Inserción y subida de archivos a la web
+
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
+============================
